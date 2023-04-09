@@ -1,0 +1,199 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+	width: 1107px;
+	margin: 0 auto;
+}
+.content{
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+	padding: 40px 0;
+}
+.content a:first-child{
+	color: #34547A;
+}
+.content a{
+	margin-left: 42px;
+}
+header{
+	background-color: #eeeff1;
+}
+.content_design{
+	display: flex;
+	justify-content: space-around;
+	padding: 150px 0;
+}
+.right{
+	text-align: left;
+}
+p{
+	width: 540px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+	margin-bottom: 60px;
+}
+h1{
+	font-size: 48px;
+	line-height: 79px;
+	margin-bottom: 60px;
+}
+.content_design button{
+	padding: 25px 40px;
+	background-color: #34547a;
+	border: none;
+	color: white;
+}
+.design{
+	background-color: #eeeff1;
+}
+.left{
+	padding-top: 30px;
+}
+.content_about_me{
+	text-align: center;
+}
+.content_about_me h2{
+	margin-bottom: 50px;
+	margin-top: 110px;
+}
+.content_about_me p{
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.info{
+	background-color: #34547A;
+	padding: 100px 0;
+}
+.photo_info img:not(.photo_info img:last-child){
+		margin-right: 20px;
+}
+.photo_info img{
+	height: 50px;
+}
+.photo_info{
+	text-align: center;
+}
+.about_me .content{
+	display: flex;
+	justify-content: space-between;
+}
+.about_me .right{
+	display: inline-block;
+}
+.about_me img{
+	border: 10px solid #34547A;
+	border-radius: 100%;
+}
+.about_me .left{
+	display: inline-block;
+	text-align: left;
+}
+.about_me button{
+	padding: 25px 41px;
+	border: none;
+	color: white;
+	background-color: #34547a;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+.about_me h2{
+	margin-bottom: 30px;
+}
+.about_me h1{
+	margin-bottom: 30px;
+}
+.my_work img{
+	height: 600px;
+	width: 1110px;
+}
+.my_work .content{
+	text-align: center;
+}
+.my_work p{
+	display: inline-block;
+}
+.my_work h2{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.my_work{
+	background-color: #eeeff1;
+}
+.request{
+	background-color: #eeeff1;
+}
+.request p{
+	display: inline-block;
+}
+form{
+	display: grid;
+	grid-template-areas: 'n e'
+	't t';
+	grid-gap: 25px;
+}
+.request input{
+	padding: 17px 161px 17px 20px;
+	border: none;
+}
+.last{
+	height: 175px;
+}
+.request .container{
+	text-align: center;
+}
+.request button{
+	padding: 20px 19px;
+	border: none;
+	margin-top: 50px;
+	background-color: #34547a;
+	color: white;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0.15em;
+	width: 190px;
+	margin-bottom: 100px;
+}
+#n{
+	grid-area: n;
+}
+#e{
+	grid-area: e;
+}
+#t{
+	grid-area: t;
+}
+.footer{
+	text-align: center;
+	background-color: #34547a;
+	color: white;
+}
+.footer p{
+	display: inline-block;
+	color: white;
+}
+.footer h2{
+	padding-top: 50px;
+}
+.about_me .content{
+	border-bottom: 2px solid grey;
+}
